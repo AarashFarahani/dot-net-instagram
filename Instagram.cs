@@ -106,7 +106,6 @@ namespace InstagramDotNet
                 int totalPhotos = _instagram.data.Count - 1;
 
                 
-
                 while (count < totalPhotos)
                 {
 
@@ -114,10 +113,8 @@ namespace InstagramDotNet
 
                     foreach (object o in _instagram.data[count].tags)
                     {
-                        
                         tags += "#" + o + ",";
-                        
-                       
+                    
                     }
 
                     dt.Rows.Add(_instagram.data[count].images.standard_resolution.url, _instagram.data[count].images.low_resolution.url, _instagram.data[count].likes.count, _instagram.data[count].caption.text, tags.TrimEnd(new char[]{','}));
