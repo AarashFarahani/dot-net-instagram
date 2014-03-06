@@ -13,9 +13,9 @@ instagram dot net is a class which you can use to interact with Instagram's API 
   
     Instagram ig = new Instagram("YOUR_ACCESS_TOKEN");
   
-    //Find the numeric value of a username
-    //outputs a JSON String
-    getUserId(string user);
+    //Outputs the numeric value of a username
+    //returns a JSON String containing the user id value
+    getUserId("USER_NAME");
   
     //Utilize the getMediaRecent Endpoint
     //The second parameter is the number of recent images to return
