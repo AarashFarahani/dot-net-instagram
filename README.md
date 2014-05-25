@@ -39,9 +39,10 @@ http://james.newtonking.com/json
 
 You can use the Instagram class as is, or compile it into a DLL for portability.
 
-## API Reference
+##Reference
 
-http://instagram.com/developer/endpoints/
+1. http://instagram.com/developer/endpoints/
+2. How to get your access token : http://blog.degs.io/2014/04/blog-post.html
 
 
 ## License
