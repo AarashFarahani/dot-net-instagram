@@ -9,6 +9,8 @@ instagram dot net is a class which you can use to interact with Instagram's API 
 
 ## Code Example
 
+In your code behind
+
     using InstagramDotNet;
   
     Instagram ig = new Instagram("YOUR_ACCESS_TOKEN");
@@ -17,10 +19,11 @@ instagram dot net is a class which you can use to interact with Instagram's API 
     //returns a JSON String containing the user id value
     getUserId("USER_NAME");
   
-    //Utilize the getMediaRecent Endpoint
-    //The second parameter is the number of recent images to return
+    //Bound to your repeater in your .aspx page
     Repeater1.DataSource = ig.getMediaRecent("INSTAGRAM_USER_ID", 10);
     Repeater1.DataBind();
+    
+In your .aspx page
     
     <asp:Repeater ID="Repeater1" runat="server">
       <ItemTemplate>
@@ -44,6 +47,9 @@ You can use the Instagram class as is, or compile it into a DLL for portability.
 1. http://instagram.com/developer/endpoints/
 2. How to get your access token : http://blog.degs.io/2014/04/blog-post.html
 
+## Live Examples
+1. http://universalpictures.ca
+2. http://mirasnails.com/instagram.aspx
 
 ## License
 
