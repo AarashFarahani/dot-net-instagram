@@ -45,7 +45,6 @@ You can use the Instagram class as is, or compile it into a DLL for portability.
 ##Reference
 
 1. http://instagram.com/developer/endpoints/
-2. How to get your access token : http://blog.degs.io/2014/04/blog-post.html
 
 ## Live Examples
 1. http://universalpictures.ca
