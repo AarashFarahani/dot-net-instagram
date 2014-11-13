@@ -17,7 +17,7 @@ In your code behind
   
     //Outputs the numeric value of a username
     //returns a JSON String containing the user id value
-    getUserId("USER_NAME");
+    ig.getUserId("USER_NAME");
   
     //Bound to your repeater in your .aspx page
     Repeater1.DataSource = ig.getMediaRecent("INSTAGRAM_USER_ID", 10);
