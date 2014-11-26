@@ -5,7 +5,7 @@ C# Wrapper for Instagram Rest API
 
 ## Synopsis
 
-instagram dot net is a class which you can use to interact with Instagram's API endpoints. It's a simple plugin that allows you to access public streams in under 5 lines of code. If you have any questions please find me on twitter @codechmst
+instagram.net is a class which you can use to interact with Instagram's API endpoints. It's a simple plugin that allows you to access public streams in under 5 lines of code. If you have any questions please find me on twitter @codechmst
 
 ## Code Example
 
