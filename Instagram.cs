@@ -20,8 +20,7 @@ namespace InstagramDotNet
         private string access_token;
 
         /// <summary>
-        /// Instantiate this method with a valid access token. For helping getting your access token
-        /// visit http://instagramdotnet.com
+        /// Instantiate this method with a valid access token.
         /// </summary>
         /// <param name="access_token">A valid access token</param>
         public Instagram(string access_token)
