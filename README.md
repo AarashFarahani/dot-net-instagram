@@ -53,7 +53,3 @@ You can use the Instagram class as is, or compile it into a DLL for portability.
 ## License
 
 MIT license
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dego89/instagram.net/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
