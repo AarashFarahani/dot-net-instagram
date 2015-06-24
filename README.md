@@ -14,6 +14,11 @@ This library covers the following endpoints:
 1. Users Search [GET /users/search] - https://instagram.com/developer/endpoints/users/#get_users_search
 2. Media Recent [GET /users/user-id/media/recent] - https://instagram.com/developer/endpoints/users/#get_users_media_recent
 
+## Installation
+
+You must download and add a reference to json.net
+http://james.newtonking.com/json
+
 ## Code Example
 
 In your code behind
@@ -42,20 +47,9 @@ In your .aspx page
       </ItemTemplate>
     </asp:Repeater>
 
-## Installation
-
-You must download and add a reference to json.net
-http://james.newtonking.com/json
-
-You can use the Instagram class as is, or compile it into a DLL for portability.
-
 ##Reference
 
 1. http://instagram.com/developer/endpoints/
-
-## Live Examples
-1. http://universalpictures.ca
-2. http://mirasnails.com/instagram.aspx
 
 ## License
 
