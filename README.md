@@ -7,6 +7,12 @@ C# Wrapper for Instagram Rest API
 
 instagram.net is a class which you can use to interact with Instagram's API endpoints. It's a simple plugin that allows you to access public streams in under 5 lines of code. If you have any questions please find me on twitter @codechmst
 
+## Endpoints
+
+This library covers the following endpoints:
+
+1. Media Recent - https://instagram.com/developer/endpoints/users/#get_users_media_recent
+
 ## Code Example
 
 In your code behind
