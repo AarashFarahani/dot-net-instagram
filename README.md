@@ -11,7 +11,8 @@ instagram.net is a class which you can use to interact with Instagram's API endp
 
 This library covers the following endpoints:
 
-1. Media Recent - https://instagram.com/developer/endpoints/users/#get_users_media_recent
+1. Users Search [GET /users/search] - https://instagram.com/developer/endpoints/users/#get_users_search
+2. Media Recent [GET /users/user-id/media/recent] - https://instagram.com/developer/endpoints/users/#get_users_media_recent
 
 ## Code Example
 
