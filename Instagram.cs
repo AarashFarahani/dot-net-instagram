@@ -126,6 +126,15 @@ namespace InstagramDotNet
 
             return dt;
         }
+
+
+        /// <summary>
+        /// This methods returns a Data Table containing the most recent collection of large and small
+        /// images from the tags(hashtags). The two columns returned are, "LargeImage" and "SmallImage".
+        /// You can bind this method to an ASP.NET Repeater server control to expose the data easily.
+        /// </summary>
+        /// <param name="tagName">tag name for photos. Example: "picoftheday"</param>
+        /// <returns>DataTable with Columns, "LargeImage" and "SmallImage".</returns>
         public DataTable getTagPhotos(string tagName, int media_count)
         {
             DataTable dt = new DataTable();
