@@ -134,7 +134,7 @@ namespace InstagramDotNet
         /// You can bind this method to an ASP.NET Repeater server control to expose the data easily.
         /// </summary>
         /// <param name="tagName">tag name for photos. Example: "picoftheday"</param>
-        /// <returns>DataTable with Columns, "LargeImage" and "SmallImage".</returns>
+        /// <returns>DataTable with Columns, "LargeImage" , "SmallImage" , "Caprion" , "Tags" , "Likes".</returns>
         public DataTable getTagPhotos(string tagName, int media_count)
         {
             DataTable dt = new DataTable();
