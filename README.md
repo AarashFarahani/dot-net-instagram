@@ -16,8 +16,8 @@ This library covers the following endpoints:
 
 ## Installation
 
-You must download and add a reference to json.net
-http://james.newtonking.com/json
+You must download and add a reference to Json.NET
+http://www.newtonsoft.com/json
 
 ## Code Example
 
